@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <!-- Build your game board, instructions, and score displays here! -->
+  <header>
+    <div id="gameName">Tic-Tac-Toe</div>
+  </header>
+  <body>
+    <aside id="leftSide">
+      <div id="winnerAnnouncement"></div>
+      <div><button id="resetGame">Reset Game</button></div>
+    </aside>
+    <main>
+      <div id="gameBoard">
+        <div class="gameBoardBox"></div>
+        <div class="gameBoardBox"></div>
+        <div class="gameBoardBox"></div>
+        <div class="gameBoardBox"></div>
+        <div class="gameBoardBox"></div>
+        <div class="gameBoardBox"></div>
+        <div class="gameBoardBox"></div>
+        <div class="gameBoardBox"></div>
+        <div class="gameBoardBox"></div>
+      </div>
+    </main>
+    <aside id="rightSide">
+      <div id="nextTurn">Player 1 Turn</div>
+    </aside>
+  </body>
+  <footer>
+    <div id="scoreSection">
+      <div class="scoreTitle">Player (X): <span id="playerOneScore">0</span></div>
+      <div class="scoreTitle"><span id="playerType">Player 2</span> (O): <span id="playerTwoScore">0</span></div>
+      <div class="scoreTitle">Tie: <span id="tieScore">0</span></div>
+    </div>
+    <div id="gameModeSection">
+      <div>Player vs. <span id="playerType">Player 2</span></div>
+      <div><button id="changeGameMode">Change Mode</button></div>
+    </div>
+  </footer>
+  <!-- Build your game board, instructions, and score displays here! -->
+  <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
